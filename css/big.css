@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	margin: 25px auto;
+	height: 120px;
+}
+
+#header>.inner {
+	height: 110px;
+	width: 1200px;
+	background-color: #CCCCCC;
+	margin: 0 auto;
+	padding: 5px;
+	line-height: 55px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-weight: 700;
+}
+
+.top {
+	font-size: 20px;
+	
+}
+
+.bottom {
+	font-size: 50px;
+}
+
+#form {
+	height: 280px;
+	width: 650px;
+	margin: 0 auto;
+	padding: 10px;
+	line-height: 30px;
+	text-align: left;
+	font-family: "Comic Sans MS";
+	font-weight: 700;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+.form-text {
+	width: 300px;
+	height: 160px;
+	line-height: 30px;
+	margin: 20px 150px 20px;
+}
+
+.group, .form-button {
+	text-align: right;
+}
+
+input[type=text] {
+	width: 60%;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+input[name=total], input[name=salesTax] {
+	background-color: #CCCCCC;
+}
+
+input[type=submit], input[type=reset] {
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	box-shadow: 2px 2px 2px black;
+}
+
+#base {
+	margin: 20px auto;
+	padding: 5px;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-weight: 700;
+}
+
+img {
+	width: 200px;
+	margin: 20px auto;
+}
